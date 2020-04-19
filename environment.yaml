@@ -3,4 +3,5 @@ dependencies:
     - python>=3.7
     - nltk
     - jupyter
-    - sklearn
+    - scikit-learn
+    - pytest
