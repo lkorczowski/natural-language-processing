@@ -1,0 +1,6 @@
+name: nlp-env
+dependencies:
+    - python>=3.7
+    - nltk
+    - jupyter
+    - sklearn
