@@ -22,7 +22,3 @@ def text_prepare(text):
     text_tokens = word_tokenize(text)
     tokens_without_sw = [word for word in text_tokens if not word in STOPWORDS]  # delete stopwords from text
     return (" ").join(tokens_without_sw)
-
-
-textstr = "I'm very hungry (all the time), read @home, loving'it :). My num; #0563+^9"
-print(f"test: {text_prepare(textstr)}")
